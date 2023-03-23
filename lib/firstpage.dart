@@ -351,16 +351,16 @@ class _firstState extends State<first> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(), setState(() {
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) {
-            return second(index, temp, prashant,color[widget.i]);
-          },
-        ),
-      );
-    });
+    //   appBar: AppBar(), setState(() {
+    //   Navigator.push(
+    //     context,
+    //     MaterialPageRoute(
+    //       builder: (context) {
+    //         return second(index, temp, prashant,color[widget.i]);
+    //       },
+    //     ),
+    //   );
+    // });
       body: GridView.builder(
         itemCount: 11,
         itemBuilder: (context, index) {
